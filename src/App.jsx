@@ -32,8 +32,8 @@ class App extends Component {
           <Row>
             <Col xs={8}>
               <BookList
-                books={fantasy}
-                selectedBook={this.changeSelectedBook} //cambio l'asin selezionato
+                books={fantasy} //passo a booklist
+                selectedBook={this.changeSelectedBook} //cambio l'asin selezionato al click di singlebook
                 selectedAsin={this.state.selectedAsin} //imposto l'asin come quello selezionato
               />
             </Col>

@@ -33,8 +33,8 @@ class BookList extends Component {
               <Col xs={12} md={4} key={b.asin}>
                 <SingleBook
                   book={b}
-                  selectedBook={this.props.selectedBook} //richiamo la funzinoe da app
-                  isSelected={this.props.selectedAsin === b.asin} //controllo che l'asin del libro selezionato di App sia quello del libro che sto mappando
+                  selectedBook={this.props.selectedBook} //richiamo la funzinoe da app changeselectedbook
+                  isSelected={this.props.selectedAsin === b.asin} //controllo che l'asin del libro selezionato di App sia quello del libro che sto mappando. true o false quindi posso selezionare solo un libro alla volta
                 />
               </Col>
             ))}
