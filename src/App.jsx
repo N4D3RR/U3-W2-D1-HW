@@ -18,7 +18,7 @@ class App extends Component {
 
   changeSelectedBook = (asin) => {
     this.setState({
-      selectedAsin: asin, //quando seleziono un libro, aggiorno lo stato con l'asin selezionato
+      selectedAsin: asin, //quando seleziono un libro, aggiorno lo stato con l'asin selezionato da single book
     })
   }
 
